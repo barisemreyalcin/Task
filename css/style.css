@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  list-style: none !important;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-size: 1.6rem;
+  font-family: "adobe clean", sans-serif; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.main-container {
+  max-width: 1440px;
+  margin: 0 auto; }
+
+#main-contact {
+  background: linear-gradient(to top, #144a93, #0d4b9f);
+  padding: .8rem 0; }
+  #main-contact__container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #main-contact__container .contacts {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #main-contact__container .contacts:first-child {
+        margin-right: auto; }
+      #main-contact__container .contacts .contact-text {
+        color: #fff;
+        font-size: 1.2rem;
+        opacity: .9; }
+    #main-contact__container #phone {
+      padding-left: 2.5rem; }
+  #main-contact svg {
+    padding-right: .8rem; }
+
+#main-nav {
+  padding: 2rem 0; }
+  #main-nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #main-nav__container .search {
+      padding-right: 1.5rem; }
+    #main-nav__container .btn {
+      display: inline-block;
+      background-color: #DC0D15;
+      color: #fff;
+      padding: 1.5rem;
+      margin-left: .7rem;
+      border-radius: .5rem;
+      font-size: 1.4rem;
+      vertical-align: middle;
+      border: none;
+      text-align: center;
+      transition: all .3s; }
+      #main-nav__container .btn:hover {
+        background-color: #0D4B9F; }
+  #main-nav__logo {
+    margin-right: 2.5rem; }
+  #main-nav__links {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    color: #0D4B9F; }
+    #main-nav__links .link {
+      padding: 3.5rem;
+      display: inline-block;
+      font-weight: bold;
+      color: #0D4B9F;
+      font-size: 1.5rem; }
+  #main-nav__social {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #main-nav__social a {
+      padding-right: 1.5rem; }
+
+#main-header {
+  position: relative; }
+  #main-header .carousel-indicators li {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    position: relative;
+    top: -3rem;
+    margin: 0 .5rem; }
+  #main-header .carousel-indicators li.active {
+    background-color: #EF7B00; }
+  #main-header .carousel #banner {
+    left: 4rem;
+    position: absolute;
+    text-align: start; }
+  #main-header h2 {
+    font-size: 6.7rem;
+    font-weight: bold;
+    margin: 3.7rem 0; }
+  #main-header h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: .7rem;
+    border-bottom: 3px solid #978F88;
+    max-width: 50.6rem;
+    margin-bottom: -1.5rem; }

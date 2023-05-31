@@ -1,0 +1,23 @@
+{
+  "name": "sahne_medya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barisemreyalcin/Task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barisemreyalcin/Task/issues"
+  },
+  "homepage": "https://github.com/barisemreyalcin/Task#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
