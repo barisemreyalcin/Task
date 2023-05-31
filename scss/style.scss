@@ -129,7 +129,6 @@ ul {
 
 // main header
 #main-header {
-    position: relative;
     .carousel {
 
         &-indicators {
@@ -147,10 +146,16 @@ ul {
             }
         }
 
+        .main-container {
+            position: relative;
+        }
+
         #banner {
-            left: 4rem;
             position: absolute;
             text-align: start;
+            left: -.6rem;
+            top: -65rem;
+            padding-left: .5rem;
         }
     }
 
