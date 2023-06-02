@@ -153,7 +153,8 @@ ul {
       transform: translateY(-1rem); }
 
 #section-edu {
-  padding: 0 9rem; }
+  padding: 0 9rem;
+  margin-bottom: 13rem; }
   #section-edu .section-header {
     text-align: center;
     padding: 0 9.5rem; }
@@ -166,7 +167,8 @@ ul {
       margin-bottom: 1.8rem;
       padding-bottom: 1.8rem; }
     #section-edu .section-header p {
-      font-weight: bold; }
+      font-weight: bold;
+      padding: 0 3rem; }
   #section-edu #section-cards .section-row {
     display: flex;
     align-items: center;
@@ -199,3 +201,80 @@ ul {
       z-index: -1;
       transform: translateX(-50%) translateY(-50%) scale(1.42) rotate(45deg);
       background: linear-gradient(to top left, #fff, #eeeeee); }
+    #section-edu #section-cards .section-card h3 {
+      margin: 2.7rem 0;
+      color: #0D4B9F;
+      font-weight: bold; }
+    #section-edu #section-cards .section-card a {
+      color: #EF7C03;
+      font-size: 1.5rem;
+      font-weight: bold; }
+      #section-edu #section-cards .section-card a:hover ~ .border-bottom {
+        width: 6rem; }
+    #section-edu #section-cards .section-card .border-bottom {
+      border: none;
+      width: 3rem;
+      height: 2.5px;
+      background-color: #EF7C03;
+      transition: all .3s; }
+
+#section-detail {
+  height: 115vh;
+  background-image: url(../img/thai-lecture-chairs-tables.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  #section-detail::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0C4797;
+    opacity: .9; }
+  #section-detail #detail-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0 9rem; }
+    #section-detail #detail-container #details {
+      max-width: 50rem;
+      position: absolute;
+      z-index: 3;
+      color: #fff;
+      top: 50%;
+      transform: translateY(-50%); }
+      #section-detail #detail-container #details h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 8.7rem;
+        line-height: 8.7rem; }
+      #section-detail #detail-container #details p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8rem;
+        margin-top: 3.5rem; }
+      #section-detail #detail-container #details .detail-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3.5rem;
+        max-width: 8rem; }
+        #section-detail #detail-container #details .detail-link a {
+          color: #fff;
+          font-size: 1.5rem;
+          text-decoration: none; }
+          #section-detail #detail-container #details .detail-link a:hover ~ .border-bottom {
+            width: 7.4rem; }
+        #section-detail #detail-container #details .detail-link .border-bottom {
+          border: none;
+          width: 3rem;
+          height: 2.5px;
+          background-color: #fff;
+          transition: all .3s;
+          text-align: center; }
+    #section-detail #detail-container img {
+      position: absolute;
+      z-index: 3;
+      bottom: 0;
+      right: 0; }

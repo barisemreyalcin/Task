@@ -226,6 +226,8 @@ ul {
 #section-edu {
 
     padding: 0 9rem;
+    margin-bottom: 13rem;
+
     .section-header {
         text-align: center;
         padding: 0 9.5rem;
@@ -241,6 +243,7 @@ ul {
         }
         p {
             font-weight: bold;
+            padding: 0 3rem;
         }
     }
 
@@ -285,6 +288,114 @@ ul {
                 background: linear-gradient(   to top left, #fff, #eeeeee);
             }
 
+            h3 {
+                margin: 2.7rem 0;
+                color: #0D4B9F;
+                font-weight: bold;
+            }
+
+            a {
+                color: #EF7C03;
+                font-size: 1.5rem;
+                font-weight: bold;
+                
+                &:hover ~ .border-bottom {
+                    width: 6rem;
+                }
+            }
+
+            .border-bottom {
+                border: none;
+                width: 3rem;
+                height: 2.5px;
+                background-color: #EF7C03;
+                transition: all .3s;
+ 
+            }
         }
     }
+}
+
+// detail banner
+#section-detail {
+    height: 115vh;
+    background-image: url(../img/thai-lecture-chairs-tables.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    &::after {
+        content: "";
+        display: block; 
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0C4797;
+        opacity: .9;
+    }
+
+    #detail-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 0 9rem;
+
+        #details {
+            max-width: 50rem;
+            position: absolute;
+            z-index: 3;
+            color: #fff;
+            top: 50%;
+            transform: translateY(-50%);
+
+            h3 {
+                font-family: 'Roboto', sans-serif;
+                font-size: 8.7rem;
+                line-height: 8.7rem;
+            }
+
+            p {
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.8rem;
+                margin-top: 3.5rem;
+            }
+            .detail-link{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 3.5rem;
+
+                max-width: 8rem; 
+                a {
+                    color: #fff;
+                    font-size: 1.5rem;
+                    text-decoration: none;
+    
+                    &:hover ~ .border-bottom {
+                        width: 7.4rem;
+                    }
+                }
+                .border-bottom {
+                    border: none;
+                    width: 3rem;
+                    height: 2.5px;
+                    background-color: #fff;
+                    transition: all .3s;
+                    text-align: center;
+                   
+                }
+            }
+            
+        }
+    
+        img {
+            position: absolute;
+            z-index: 3;
+            bottom: 0;
+            right: 0;
+        }
+    }
+    
 }
