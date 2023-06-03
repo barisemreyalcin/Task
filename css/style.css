@@ -20,6 +20,39 @@ ul {
   max-width: 1440px;
   margin: 0 auto; }
 
+.detail-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+  .detail-link .link-bottom {
+    border: none;
+    width: 3rem;
+    height: 1.5px;
+    background-color: #DD141C;
+    transition: all .3s;
+    text-align: center; }
+
+.section-header {
+  text-align: center;
+  padding: 0 9.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .section-header h2 {
+    font-size: 3.8rem;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 1.8rem; }
+  .section-header p {
+    font-weight: bold;
+    padding: 0 3rem; }
+  .section-header .header-bottom {
+    border: none;
+    height: 2.5px;
+    background-color: #000;
+    margin-bottom: 1.8rem; }
+
 #main-contact {
   background: linear-gradient(to top, #144a93, #0d4b9f);
   padding: .8rem 0; }
@@ -155,20 +188,8 @@ ul {
 #section-edu {
   padding: 0 9rem;
   margin-bottom: 13rem; }
-  #section-edu .section-header {
-    text-align: center;
-    padding: 0 9.5rem; }
-    #section-edu .section-header h2 {
-      font-size: 3.8rem;
-      font-weight: bold;
-      border-bottom: 2.5px solid #000;
-      max-width: 41.5rem;
-      margin: 0 auto;
-      margin-bottom: 1.8rem;
-      padding-bottom: 1.8rem; }
-    #section-edu .section-header p {
-      font-weight: bold;
-      padding: 0 3rem; }
+  #section-edu .section-header .header-bottom {
+    width: 43.5rem; }
   #section-edu #section-cards .section-row {
     display: flex;
     align-items: center;
@@ -223,7 +244,8 @@ ul {
   background-image: url(../img/thai-lecture-chairs-tables.jpg);
   background-position: center;
   background-size: cover;
-  position: relative; }
+  position: relative;
+  margin-bottom: 8rem; }
   #section-detail::after {
     content: "";
     display: block;
@@ -278,3 +300,52 @@ ul {
       z-index: 3;
       bottom: 0;
       right: 0; }
+
+#section-centers {
+  padding: 0 9rem;
+  margin-bottom: 8rem; }
+  #section-centers .section-header .header-bottom {
+    width: 120rem; }
+  #section-centers .section-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-basis: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 2px 7px 29px 2px;
+    margin-bottom: 2.5rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    transition: all .3s; }
+    #section-centers .section-item:hover {
+      transform: translateY(-1rem); }
+    #section-centers .section-item > * {
+      align-self: center; }
+    #section-centers .section-item > div > img {
+      flex-basis: 100%; }
+    #section-centers .section-item > :first-child {
+      padding: 3.5rem 0 3.5rem 5rem; }
+    #section-centers .section-item .item-explanation {
+      padding: 3.5rem 5rem; }
+      #section-centers .section-item .item-explanation h4 {
+        font-size: 1.8rem;
+        color: #707070;
+        font-weight: bold; }
+      #section-centers .section-item .item-explanation > p {
+        padding-top: 2rem;
+        margin-bottom: 3.8rem;
+        font-size: 1.8rem;
+        line-height: 2rem;
+        color: #707070; }
+      #section-centers .section-item .item-explanation .item-details {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap; }
+        #section-centers .section-item .item-explanation .item-details a {
+          color: #DD141C;
+          font-weight: bold; }
+          #section-centers .section-item .item-explanation .item-details a:hover ~ .link-bottom {
+            width: 8.5rem; }
+        #section-centers .section-item .item-explanation .item-details :first-child {
+          margin-right: auto; }
+        #section-centers .section-item .item-explanation .item-details :nth-child(2) {
+          padding-right: 2rem; }
