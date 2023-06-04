@@ -304,7 +304,7 @@ ul {
 
 #section-centers {
   padding: 0 9rem;
-  margin-bottom: 8rem; }
+  margin-bottom: 13rem; }
   #section-centers .section-header .header-bottom {
     width: 120rem; }
   #section-centers .section-item {
@@ -417,3 +417,24 @@ ul {
         #section-activities .activities .white-circle .activity h4 {
           color: #fff;
           font-size: 2.2rem; }
+
+#section-references {
+  margin-top: 24rem; }
+  #section-references #references {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 6rem; }
+  #section-references .reference {
+    background-color: #F4F4F4;
+    padding: 3.5rem;
+    border-radius: 1.2rem;
+    transition: all 2s; }
+    #section-references .reference:hover rect {
+      fill: #dc0d15; }
+    #section-references .reference:hover path {
+      fill: #0d4b9f; }
+  #section-references .header-bottom {
+    width: 50rem;
+    background-color: #000; }
