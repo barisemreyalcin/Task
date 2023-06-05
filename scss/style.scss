@@ -637,4 +637,134 @@ ul {
         background-color: #000;
     }
 }
-// #4C4C4C
+
+// announcements 
+#section-announcements {
+    margin-top: 14.5rem;
+    padding-top: 6rem;
+    background-color: #F4F4F4;
+    
+    h5 {
+        font-size: 2.6rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1.8rem;
+        margin: 1.8rem 0;
+    }
+
+    .section-header { 
+        .header-bottom {
+            width: 50rem;
+            background-color: #000;
+        }
+        > p {
+            padding-bottom: 4rem;
+        }
+    }
+
+    #announcement-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 5.5rem;
+    }
+
+    #announcements { 
+        .announcement {
+            background-color: #FFF;
+            border-radius: 1rem;
+            max-height: 19.7rem;
+            margin-bottom: 1.5rem;
+            transition: all .3s;
+            
+            &:hover {
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+            }
+
+            display: flex;
+
+            &-image {
+                height: 100%;
+            }
+
+            > img {
+                height: 100%;
+            }
+
+            &-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                padding: 0 5.5rem;
+
+                
+
+                .detail-link {
+                    align-items: flex-start;
+                    width: 9rem;
+
+                    a {
+                        color: #DD141C;
+                        font-weight: bold;
+        
+                        &:hover ~ .link-bottom{
+                            width: 9rem; 
+                        }
+                    }
+                }
+
+                .link-bottom {
+                    align-self: center;
+                }
+            }
+        }
+    }
+
+    #videos {
+        background-color: #fff;
+        border-radius: 1rem;
+        max-height: 62.3rem;
+        max-width: 59rem;
+
+        .video {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100%;
+            transition: all .3s;
+            
+            &:hover {
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+            }
+
+            &__image {
+                width: 100%;
+            }
+
+            &__details {
+                display: flex;
+                width: 100%;
+                padding: 4rem 5rem;
+
+                .detail-link {
+                    align-items: flex-start;
+                    width: 9.2rem;
+
+                    a {
+                        color: #DD141C;
+                        font-weight: bold;
+        
+                        &:hover ~ .link-bottom{
+                            width: 9.2rem; 
+                        }
+                    }
+                    .link-bottom {
+                        align-self: center;
+                    }
+                }
+            }
+        }
+    }
+}

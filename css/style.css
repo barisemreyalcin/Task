@@ -429,8 +429,7 @@ ul {
   #section-references .reference {
     background-color: #F4F4F4;
     padding: 3.5rem;
-    border-radius: 1.2rem;
-    transition: all 2s; }
+    border-radius: 1.2rem; }
     #section-references .reference:hover rect {
       fill: #dc0d15; }
     #section-references .reference:hover path {
@@ -438,3 +437,80 @@ ul {
   #section-references .header-bottom {
     width: 50rem;
     background-color: #000; }
+
+#section-announcements {
+  margin-top: 14.5rem;
+  padding-top: 6rem;
+  background-color: #F4F4F4; }
+  #section-announcements h5 {
+    font-size: 2.6rem;
+    font-weight: bold; }
+  #section-announcements p {
+    font-size: 1.8rem;
+    margin: 1.8rem 0; }
+  #section-announcements .section-header .header-bottom {
+    width: 50rem;
+    background-color: #000; }
+  #section-announcements .section-header > p {
+    padding-bottom: 4rem; }
+  #section-announcements #announcement-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5.5rem; }
+  #section-announcements #announcements .announcement {
+    background-color: #FFF;
+    border-radius: 1rem;
+    max-height: 19.7rem;
+    margin-bottom: 1.5rem;
+    transition: all .3s;
+    display: flex; }
+    #section-announcements #announcements .announcement:hover {
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; }
+    #section-announcements #announcements .announcement-image {
+      height: 100%; }
+    #section-announcements #announcements .announcement > img {
+      height: 100%; }
+    #section-announcements #announcements .announcement-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 5.5rem; }
+      #section-announcements #announcements .announcement-text .detail-link {
+        align-items: flex-start;
+        width: 9rem; }
+        #section-announcements #announcements .announcement-text .detail-link a {
+          color: #DD141C;
+          font-weight: bold; }
+          #section-announcements #announcements .announcement-text .detail-link a:hover ~ .link-bottom {
+            width: 9rem; }
+      #section-announcements #announcements .announcement-text .link-bottom {
+        align-self: center; }
+  #section-announcements #videos {
+    background-color: #fff;
+    border-radius: 1rem;
+    max-height: 62.3rem;
+    max-width: 59rem; }
+    #section-announcements #videos .video {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+      transition: all .3s; }
+      #section-announcements #videos .video:hover {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; }
+      #section-announcements #videos .video__image {
+        width: 100%; }
+      #section-announcements #videos .video__details {
+        display: flex;
+        width: 100%;
+        padding: 4rem 5rem; }
+        #section-announcements #videos .video__details .detail-link {
+          align-items: flex-start;
+          width: 9.2rem; }
+          #section-announcements #videos .video__details .detail-link a {
+            color: #DD141C;
+            font-weight: bold; }
+            #section-announcements #videos .video__details .detail-link a:hover ~ .link-bottom {
+              width: 9.2rem; }
+          #section-announcements #videos .video__details .detail-link .link-bottom {
+            align-self: center; }
