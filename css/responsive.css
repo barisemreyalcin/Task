@@ -4,12 +4,113 @@
 
 @media (max-width: 1200px) {
   .main-container {
-    max-width: 992px; } }
+    max-width: 992px; }
+  .contact-text {
+    font-size: 1.1rem !important; } }
 
 @media (max-width: 992px) {
   .main-container {
-    max-width: 768px; } }
+    max-width: 768px; }
+  .contact-text {
+    font-size: 1rem !important; } }
 
 @media (max-width: 768px) {
   #main-contact {
     display: none; } }
+
+@media (max-width: 1400px) {
+  #main-nav .search {
+    padding-right: .8rem; }
+  #main-nav .btn {
+    padding: .5rem .8rem;
+    margin-left: .5rem;
+    font-size: 1.1rem; }
+  #main-nav__links .link {
+    padding: 3rem;
+    font-size: 1.4rem; }
+  #main-nav__social a {
+    padding-right: .8rem; } }
+
+@media (max-width: 1200px) {
+  #main-nav .search svg {
+    width: 2rem; }
+  #main-nav__logo {
+    margin-right: 1rem; }
+    #main-nav__logo svg {
+      width: 18rem; }
+  #main-nav__links .link {
+    padding: 2rem;
+    font-size: 1.3rem; }
+  #main-nav__social svg {
+    width: 2rem; } }
+
+@media (max-width: 992px) {
+  #main-nav {
+    padding: .5rem 0; }
+    #main-nav .search {
+      padding-right: .5rem; }
+      #main-nav .search svg {
+        width: 1.6rem; }
+    #main-nav__logo {
+      margin-right: .8rem; }
+      #main-nav__logo svg {
+        width: 14rem; }
+    #main-nav .btn {
+      padding: .4rem .6rem;
+      font-size: 1rem; }
+    #main-nav__social a {
+      padding-right: .5rem; }
+    #main-nav__social svg {
+      width: 1.6rem; }
+    #main-nav__links .link {
+      padding: 1.5rem;
+      font-size: 1.2rem;
+      text-align: center; } }
+
+@media (max-width: 768px) {
+  #main-nav__container {
+    flex-direction: column; }
+  #main-nav__social, #main-nav .btn {
+    display: none; }
+  #main-nav .search {
+    border: 1px solid #0D4B9F;
+    border-radius: .5rem;
+    padding: .5rem 3rem;
+    margin: 1rem 0;
+    text-align: right;
+    width: 75%; }
+  #main-nav__links .link {
+    padding: .5rem 1.5rem; }
+  #main-nav__logo {
+    margin: 0; }
+    #main-nav__logo svg {
+      width: 10rem; } }
+
+@media (max-width: 576px) {
+  #main-nav {
+    padding: 0 1rem; }
+    #main-nav:has(.responsive-nav) {
+      padding: 0 1rem 15rem 1rem; }
+    #main-nav__container {
+      flex-direction: row;
+      justify-content: space-between; }
+    #main-nav i {
+      display: block;
+      color: #0D4B9F; }
+    #main-nav__links li, #main-nav span {
+      display: none; }
+    #main-nav .responsive-nav li {
+      display: block;
+      width: 100%;
+      text-align: center;
+      border-bottom: 1px dashed #0D4B9F; }
+    #main-nav__links.responsive-nav {
+      flex-direction: column;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    #main-nav .search {
+      padding: .5rem;
+      margin: 2rem;
+      width: 100%; } }

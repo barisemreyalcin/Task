@@ -77,7 +77,12 @@ ul {
     padding-right: .8rem; }
 
 #main-nav {
-  padding: 2rem 0; }
+  position: relative;
+  z-index: 1;
+  padding: 2rem 0 0 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; }
+  #main-nav i {
+    display: none; }
   #main-nav__container {
     display: flex;
     align-items: center;
