@@ -563,7 +563,7 @@
     #section-edu {
         padding: 0 3rem;
         margin-bottom: 7.5rem;
-        
+
         .section-card {
             &:hover {
                 transform: none !important;
@@ -577,5 +577,193 @@
                 width: 30rem;
             }
         } 
+    }
+}
+
+// detail banner
+@media(max-width:1400px) {
+    #section-detail {
+        height: 100vh;
+
+        #detail-container {
+            padding: 0 6rem;
+
+            #details {
+                h3 {
+                    font-size: 8.3rem;
+                    line-height: 8.3rem;
+                }
+    
+                p {
+                    font-size: 1.7rem;
+                    margin-top: 3.3rem;
+                }
+            }
+            
+            img {
+                width: 70rem;
+                right: -5.2rem;
+            }
+        }
+    }
+}
+
+@media(max-width:1200px) {
+    #section-detail {
+
+        #detail-container {
+            padding: 0 3rem;
+            
+            #details {
+                h3 {
+                    font-size: 7.5rem;
+                    line-height: 7.5rem;
+                    max-width: 43rem;
+                }
+    
+                p {
+                    font-size: 1.5rem;
+                    margin-top: 3rem;
+                    max-width: 33rem;
+                }
+
+                .detail-link{
+                    margin-top: 3rem;
+    
+                    a {
+                        font-size: 1.3rem;
+        
+                        &:hover ~ .border-bottom {
+                            width: 7rem;
+                        }
+                    }
+                }
+            }
+            
+            img {
+                width: 68rem;
+            }
+        }
+    }
+}
+
+@media(max-width:992px) {
+    #section-detail {
+        height: 85vh;
+
+        #detail-container {
+            padding: 0;
+            
+            #details {
+                h3 {
+                    font-size: 6rem;
+                    line-height: 6rem;
+                    max-width: 34.5rem;
+                }
+    
+                p {
+                    font-size: 1.4rem;
+                    margin-top: 2rem;
+                    max-width: 27rem;
+                }
+
+                .detail-link{
+                    margin-top: 1rem;
+                    margin-left: -1.5rem;
+    
+                    a {
+                        font-size: 1rem;
+        
+                        &:hover ~ .border-bottom {
+                            width: 5.5rem;
+                        }
+                    }
+                    .border-bottom {
+                        width: 2rem;
+                        height: 2px;
+                    }
+                }
+            }
+            
+            img {
+                width: 58rem;
+                right: -7.5rem;
+            }
+        }
+    }
+}
+
+@media(max-width:768px) {
+    #section-detail {
+        height: 75vh;
+
+        #detail-container {
+            #details {
+                h3 {
+                    font-size: 3.5rem;
+                    line-height: 3.5rem;
+                    max-width: 40rem;
+                }
+    
+                p {
+                    font-size: 1.1rem;
+                    max-width: 40rem;
+                }
+
+                .detail-link{
+                    margin-left: -2rem;
+    
+                    a {
+                        font-size: .8rem;
+        
+                        &:hover ~ .border-bottom {
+                            width: 4.5rem;
+                        }
+                    }
+                    .border-bottom {
+                        width: 1.5rem;
+                        height: 1.5px;
+                    }
+                }
+            }
+            
+            img {
+                width: 28rem;
+                right: -3rem;
+            }
+        }
+    }
+}
+
+@media(max-width:576px) {
+    #section-detail {
+        height: 70vh;
+
+        #detail-container {
+            #details {
+                top: 0;
+                transform: translateY(0);
+                padding-top: 3rem;
+
+                h3 {
+                    font-size: 3.5rem;
+                    line-height: 3.5rem;
+                    max-width: 60rem;
+                }
+    
+                p {
+                    font-size: 1.2rem;
+                    max-width: 100%;
+                    margin-right: 1rem;
+                }
+            }
+            
+            img {
+                bottom: 0;
+                left: 50%;
+                width: 25rem;
+                transform: translateX(-50%);
+            }
+        }
     }
 }
