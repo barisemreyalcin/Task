@@ -247,8 +247,7 @@ ul {
     .box {
         border-radius: 1rem;
         color: #fff;
-        flex-basis: 100%;
-        flex-wrap: wrap;
+        flex-basis: 25%;
         padding: 5rem 0;
         transition: all .3s;
 
@@ -650,6 +649,7 @@ ul {
     margin-top: 14.5rem;
     padding-top: 6rem;
     background-color: #F4F4F4;
+    padding-bottom: 10rem;
     
     h5 {
         font-size: 2.6rem;
