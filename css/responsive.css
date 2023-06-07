@@ -1,3 +1,21 @@
+@media (max-width: 1200px) {
+  .section-header h2 {
+    font-size: 3.3rem; }
+  .section-header p {
+    font-size: 1.5rem; } }
+
+@media (max-width: 992px) {
+  .section-header h2 {
+    font-size: 3rem; }
+  .section-header p {
+    font-size: 1.4rem; } }
+
+@media (max-width: 768px) {
+  .section-header h2 {
+    font-size: 2.2rem; }
+  .section-header p {
+    font-size: 1.2rem; } }
+
 @media (max-width: 1400px) {
   .main-container {
     max-width: 1200px; } }
@@ -238,7 +256,8 @@
   #info-boxes {
     flex-wrap: wrap;
     gap: .5rem;
-    top: .5rem; }
+    top: .5rem;
+    margin-bottom: 5rem; }
     #info-boxes .box {
       padding: 2.5rem 0;
       flex-basis: 49.5%; }
@@ -265,3 +284,41 @@
         height: 65px; }
       #info-boxes .box:hover {
         transform: none; } }
+
+@media (max-width: 1400px) {
+  #section-edu .section-card {
+    width: 25rem !important;
+    height: 25rem !important; }
+    #section-edu .section-card h3 {
+      font-size: 1.6rem; } }
+
+@media (max-width: 1200px) {
+  #section-edu #section-cards .section-card {
+    width: 21rem !important;
+    height: 21rem !important;
+    margin: 1rem; }
+    #section-edu #section-cards .section-card h3 {
+      font-size: 1.4rem;
+      margin: 2.3rem 0; }
+    #section-edu #section-cards .section-card a {
+      font-size: 1rem; } }
+
+@media (max-width: 992px) {
+  #section-edu {
+    padding: 0 5rem; }
+    #section-edu #section-cards .section-row {
+      flex-wrap: wrap; }
+      #section-edu #section-cards .section-row .section-card {
+        width: 25rem !important;
+        height: 25rem !important; } }
+
+@media (max-width: 768px) {
+  #section-edu {
+    padding: 0 3rem;
+    margin-bottom: 7.5rem; }
+    #section-edu .section-card:hover {
+      transform: none !important; }
+    #section-edu .section-header {
+      padding: 0; }
+      #section-edu .section-header .header-bottom {
+        width: 30rem; } }

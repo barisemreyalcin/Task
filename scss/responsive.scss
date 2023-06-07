@@ -1,3 +1,41 @@
+// common class: section-header
+@media (max-width: 1200px) {
+    .section-header {
+        h2 {
+            font-size: 3.3rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .section-header {
+        h2 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .section-header {
+        h2 {
+            font-size: 2.2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+
 // main contact
 @media (max-width: 1400px) {
     .main-container {
@@ -422,6 +460,7 @@
         flex-wrap: wrap;
         gap: .5rem;
         top: .5rem;
+        margin-bottom: 5rem;
         
         .box {
             padding: 2.5rem 0;
@@ -465,5 +504,78 @@
                 transform: none;
             }
         }
+    }
+}
+
+// edu programs
+@media(max-width: 1400px) {
+    #section-edu {
+        .section-card {
+            width: 25rem !important;
+            height: 25rem !important;
+
+            h3 {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+@media(max-width: 1200px) {
+    #section-edu {
+
+        #section-cards {
+            .section-card {
+                width: 21rem !important;
+                height: 21rem !important;
+                margin: 1rem; 
+    
+                h3 {
+                    font-size: 1.4rem;
+                    margin: 2.3rem 0;
+                }
+    
+                a {
+                    font-size: 1rem;
+                }
+            }
+        }
+        
+    }
+}
+
+@media(max-width: 992px) {
+    #section-edu {
+        padding: 0 5rem;
+        #section-cards {
+                .section-row {
+                    flex-wrap: wrap;
+                    .section-card {
+                        width: 25rem !important;
+                        height: 25rem !important;
+                    }
+                }
+            }
+    }
+}
+
+@media(max-width: 768px) {
+    #section-edu {
+        padding: 0 3rem;
+        margin-bottom: 7.5rem;
+        
+        .section-card {
+            &:hover {
+                transform: none !important;
+            }
+        }
+    
+        .section-header {
+            padding: 0;
+
+            .header-bottom {
+                width: 30rem;
+            }
+        } 
     }
 }

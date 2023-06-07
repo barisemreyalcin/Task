@@ -195,54 +195,55 @@ ul {
   margin-bottom: 13rem; }
   #section-edu .section-header .header-bottom {
     width: 43.5rem; }
-  #section-edu #section-cards .section-row {
+  #section-edu #section-cards {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-    flex-basis: 100%; }
-  #section-edu #section-cards .section-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    transition: all .3s;
-    overflow: hidden;
-    width: 29rem;
-    height: 29rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin: 1.5rem;
-    border-radius: .8rem; }
-    #section-edu #section-cards .section-card:hover {
-      transform: translateY(-1rem); }
-    #section-edu #section-cards .section-card .card-gradient {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      transform: translateX(-50%) translateY(-50%) scale(1.42) rotate(45deg);
-      background: linear-gradient(to top left, #fff, #eeeeee); }
-    #section-edu #section-cards .section-card h3 {
-      margin: 2.7rem 0;
-      color: #0D4B9F;
-      font-weight: bold; }
-    #section-edu #section-cards .section-card a {
-      color: #EF7C03;
-      font-size: 1.5rem;
-      font-weight: bold; }
-      #section-edu #section-cards .section-card a:hover ~ .border-bottom {
-        width: 6rem; }
-    #section-edu #section-cards .section-card .border-bottom {
-      border: none;
-      width: 3rem;
-      height: 2.5px;
-      background-color: #EF7C03;
-      transition: all .3s; }
+    flex-direction: column; }
+    #section-edu #section-cards .section-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+      #section-edu #section-cards .section-row .section-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        transition: all .3s;
+        overflow: hidden;
+        width: 29rem;
+        height: 29rem;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin: 1.5rem;
+        border-radius: .8rem; }
+        #section-edu #section-cards .section-row .section-card:hover {
+          transform: translateY(-1rem); }
+        #section-edu #section-cards .section-row .section-card .card-gradient {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+          transform: translateX(-50%) translateY(-50%) scale(1.42) rotate(45deg);
+          background: linear-gradient(to top left, #fff, #eeeeee); }
+        #section-edu #section-cards .section-row .section-card h3 {
+          margin: 2.7rem 0;
+          color: #0D4B9F;
+          font-weight: bold; }
+        #section-edu #section-cards .section-row .section-card a {
+          color: #EF7C03;
+          font-size: 1.5rem;
+          font-weight: bold; }
+          #section-edu #section-cards .section-row .section-card a:hover ~ .border-bottom {
+            width: 6rem; }
+        #section-edu #section-cards .section-row .section-card .border-bottom {
+          border: none;
+          width: 3rem;
+          height: 2.5px;
+          background-color: #EF7C03;
+          transition: all .3s; }
 
 #section-detail {
   height: 115vh;
