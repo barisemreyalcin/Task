@@ -429,7 +429,8 @@ ul {
   #section-references #references {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
     flex-wrap: wrap;
     padding-top: 6rem; }
   #section-references .reference {

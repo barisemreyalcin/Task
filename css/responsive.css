@@ -608,9 +608,12 @@
 
 @media (max-width: 768px) {
   #section-activities .section-header {
-    padding-top: 1rem; }
+    padding: 1rem 0 0 0; }
+    #section-activities .section-header .header-bottom {
+      width: 35rem; }
     #section-activities .section-header p {
-      font-size: 1rem; }
+      font-size: 1rem;
+      padding: 0; }
   #section-activities .activities {
     gap: 2rem; }
     #section-activities .activities .white-circle {
@@ -647,3 +650,53 @@
             font-size: 1rem; }
           #section-activities .activities .white-circle .activity img {
             width: 3rem; } }
+
+@media (max-width: 1200px) {
+  #section-references {
+    margin-top: 20rem; }
+    #section-references #references {
+      padding-top: 3.5rem; } }
+
+@media (max-width: 992px) {
+  #section-references {
+    margin-top: 15rem; }
+    #section-references #references {
+      padding-top: 2.5rem; }
+      #section-references #references .reference {
+        padding: 2rem;
+        border-radius: 1rem; }
+        #section-references #references .reference svg {
+          width: 10rem;
+          height: 5rem; } }
+
+@media (max-width: 768px) {
+  #section-references {
+    margin-top: 10rem; }
+    #section-references .section-header {
+      padding: 0; }
+      #section-references .section-header p {
+        padding: 0; }
+      #section-references .section-header .header-bottom {
+        width: 30rem; }
+    #section-references #references {
+      padding-top: 2.5rem; }
+      #section-references #references .reference {
+        padding: 2rem;
+        border-radius: 1rem; }
+        #section-references #references .reference svg {
+          width: 6.4rem;
+          height: 2.2rem; } }
+
+@media (max-width: 576px) {
+  #section-references {
+    margin-top: 8rem; }
+    #section-references .section-header {
+      padding: 0; }
+    #section-references #references {
+      padding-top: 1rem; }
+      #section-references #references .reference {
+        padding: 2rem;
+        border-radius: 1rem; }
+        #section-references #references .reference svg {
+          width: 6.4rem;
+          height: 2.2rem; } }
