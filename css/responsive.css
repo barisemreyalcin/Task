@@ -12,7 +12,7 @@
 
 @media (max-width: 768px) {
   .section-header h2 {
-    font-size: 2.2rem; }
+    font-size: 2.1rem; }
   .section-header p {
     font-size: 1.2rem; } }
 
@@ -426,5 +426,147 @@
     #section-detail #detail-container img {
       bottom: 0;
       left: 50%;
-      width: 25rem;
+      width: 20rem;
       transform: translateX(-50%); } }
+
+@media (max-width: 1400px) {
+  #section-centers .section-header .header-bottom {
+    width: 105rem; }
+  #section-centers .section-item :first-child img {
+    width: 20rem; }
+  #section-centers .section-item .item-explanation {
+    padding: 3rem 4rem; }
+    #section-centers .section-item .item-explanation h4 {
+      font-size: 1.6rem; }
+    #section-centers .section-item .item-explanation > p {
+      padding-top: 1.5rem;
+      margin-bottom: 3rem;
+      font-size: 1.6rem;
+      line-height: 1.5rem; }
+    #section-centers .section-item .item-explanation .item-details a {
+      font-size: 1.2rem; }
+      #section-centers .section-item .item-explanation .item-details a:hover ~ .link-bottom {
+        width: 7rem; }
+    #section-centers .section-item .item-explanation .item-details :nth-child(2) {
+      padding-right: 1.7rem; }
+    #section-centers .section-item .item-explanation .item-details img {
+      width: 30%; } }
+
+@media (max-width: 1200px) {
+  #section-centers .section-header {
+    padding: 0 7rem; }
+    #section-centers .section-header .header-bottom {
+      width: 80rem; }
+  #section-centers .section-item > :first-child {
+    padding-left: 2.5rem; }
+  #section-centers .section-item :first-child img {
+    width: 15rem; }
+  #section-centers .section-item :nth-child(3) img {
+    width: 33rem; }
+  #section-centers .section-item .item-explanation {
+    padding: 2rem 2.5rem; }
+    #section-centers .section-item .item-explanation h4 {
+      font-size: 1.4rem; }
+    #section-centers .section-item .item-explanation > p {
+      padding-top: 1.2rem;
+      margin-bottom: 2.5rem;
+      font-size: 1.4rem; }
+    #section-centers .section-item .item-explanation .item-details a {
+      font-size: 1.1rem; }
+      #section-centers .section-item .item-explanation .item-details a:hover ~ .link-bottom {
+        width: 6.2rem; }
+    #section-centers .section-item .item-explanation .item-details img {
+      width: 33%; } }
+
+@media (max-width: 992px) {
+  #section-centers {
+    padding: 0 3rem; }
+    #section-centers .section-header {
+      padding: 0; }
+      #section-centers .section-header .header-bottom {
+        width: 70rem; }
+    #section-centers .section-item > :first-child {
+      padding-left: 2rem; }
+    #section-centers .section-item :first-child img {
+      width: 13rem; }
+    #section-centers .section-item :nth-child(3) img {
+      width: 31.5rem; }
+    #section-centers .section-item .item-explanation {
+      padding: 2rem 2rem; }
+      #section-centers .section-item .item-explanation h4 {
+        font-size: 1.3rem; }
+      #section-centers .section-item .item-explanation > p {
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+        font-size: 1.3rem; }
+      #section-centers .section-item .item-explanation .item-details a {
+        font-size: 1rem; }
+        #section-centers .section-item .item-explanation .item-details a:hover ~ .link-bottom {
+          width: 5.7rem; }
+      #section-centers .section-item .item-explanation .item-details img {
+        width: 30%; } }
+
+@media (max-width: 768px) {
+  #section-centers .section-header {
+    padding: 0 6.2rem; }
+    #section-centers .section-header p {
+      padding: 0 1rem; }
+    #section-centers .section-header .header-bottom {
+      width: 50rem; }
+  #section-centers .section-item {
+    flex-direction: column;
+    max-width: 30rem;
+    margin: 0 auto 1.5rem; }
+    #section-centers .section-item:hover {
+      transform: none; }
+    #section-centers .section-item > :first-child {
+      padding: 2rem 0 0 0; }
+    #section-centers .section-item :nth-child(3) img {
+      width: 26rem;
+      margin-bottom: 2rem;
+      border-radius: 1rem; }
+    #section-centers .section-item .item-explanation {
+      text-align: center;
+      padding: 2rem; }
+      #section-centers .section-item .item-explanation h4 {
+        font-size: 1.2rem; }
+      #section-centers .section-item .item-explanation > p {
+        padding-top: 1rem;
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem; }
+      #section-centers .section-item .item-explanation .item-details a {
+        font-size: 1rem; }
+        #section-centers .section-item .item-explanation .item-details a:hover ~ .link-bottom {
+          width: 5.7rem; }
+      #section-centers .section-item .item-explanation .item-details img {
+        width: 30%;
+        padding: 0; } }
+
+@media (max-width: 576px) {
+  #section-centers {
+    padding: 0; }
+    #section-centers .section-header {
+      padding: 0; }
+      #section-centers .section-header .header-bottom {
+        width: 30rem; }
+    #section-centers .section-item {
+      width: 100%;
+      margin: 0 auto 1rem;
+      border-radius: 4rem; }
+      #section-centers .section-item > :first-child {
+        padding: 1rem 0 0 0; }
+      #section-centers .section-item :nth-child(3) img {
+        width: 100%;
+        padding: 0 1rem;
+        margin-bottom: 1rem;
+        border-radius: 4rem; }
+      #section-centers .section-item .item-explanation {
+        padding: 1.5rem 1rem; }
+        #section-centers .section-item .item-explanation h4 {
+          font-size: 1.1rem; }
+        #section-centers .section-item .item-explanation > p {
+          padding-top: 0.5rem;
+          margin-bottom: 1rem;
+          font-size: 1.1rem; }
+        #section-centers .section-item .item-explanation .item-details img {
+          margin: 0; } }

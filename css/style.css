@@ -329,9 +329,9 @@ ul {
     #section-centers .section-item > div > img {
       flex-basis: 100%; }
     #section-centers .section-item > :first-child {
-      padding: 3.5rem 0 3.5rem 5rem; }
+      padding: 3.5rem 0 3.5rem 4.5rem; }
     #section-centers .section-item .item-explanation {
-      padding: 3.5rem 5rem; }
+      padding: 3.5rem 4.5rem; }
       #section-centers .section-item .item-explanation h4 {
         font-size: 1.8rem;
         color: #707070;
@@ -345,12 +345,13 @@ ul {
       #section-centers .section-item .item-explanation .item-details {
         display: flex;
         align-items: center;
-        flex-wrap: wrap; }
+        justify-content: space-between; }
         #section-centers .section-item .item-explanation .item-details a {
           color: #DD141C;
-          font-weight: bold; }
+          font-weight: bold;
+          font-size: 1.4rem; }
           #section-centers .section-item .item-explanation .item-details a:hover ~ .link-bottom {
-            width: 8.5rem; }
+            width: 7.5rem; }
         #section-centers .section-item .item-explanation .item-details :first-child {
           margin-right: auto; }
         #section-centers .section-item .item-explanation .item-details :nth-child(2) {
