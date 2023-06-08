@@ -207,7 +207,7 @@ ul {
             text-align: start;
             left: -.6rem;
             top: -65rem;
-            padding-left: .5rem;
+            padding-left: 1.3rem;
 
             > :first-child {
                 padding-right: 2rem;
@@ -755,6 +755,11 @@ ul {
 
             &__image {
                 width: 100%;
+                
+                img {
+                    border-top-right-radius: 1.1rem;
+                    border-top-left-radius: 1.1rem;
+                }
             }
 
             &__details {

@@ -145,7 +145,7 @@ ul {
   text-align: start;
   left: -.6rem;
   top: -65rem;
-  padding-left: .5rem; }
+  padding-left: 1.3rem; }
   #main-header .carousel #banner > :first-child {
     padding-right: 2rem;
     margin-right: 1.3rem;
@@ -508,6 +508,9 @@ ul {
       width: 100%; }
       #section-announcements #videos .video__image {
         width: 100%; }
+        #section-announcements #videos .video__image img {
+          border-top-right-radius: 1.1rem;
+          border-top-left-radius: 1.1rem; }
       #section-announcements #videos .video__details {
         display: flex;
         width: 100%;
