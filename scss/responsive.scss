@@ -696,6 +696,7 @@
 @media(max-width:768px) {
     #section-detail {
         height: 75vh;
+        margin-bottom: 5rem;
 
         #detail-container {
             #details {
@@ -928,6 +929,8 @@
 
 @media(max-width: 768px) {
     #section-centers {
+        margin-bottom: 6.5rem;
+
         .section-header {
             padding: 0 6.2rem;
 
@@ -974,7 +977,10 @@
                     }
         
                     .item-details {
-                        
+                        img {
+                            margin: 0;
+                        }
+
                         a {
                             font-size: 1rem;
         
@@ -1008,36 +1014,159 @@
             margin: 0 auto 1rem;
             border-radius: 4rem;
                 
-                > :first-child {
-                    padding: 1rem 0 0 0;
-                }
-                
-                :nth-child(3) img {
-                    width: 100%;
-                    padding: 0 1rem;
-                    margin-bottom: 1rem;
-                    border-radius: 4rem;
+            > :first-child {
+                padding: 1rem 0 0 0;
+            }
+            
+            :nth-child(3) img {
+                width: 100%;
+                padding: 0 1rem;
+                margin-bottom: 1rem;
+                border-radius: 4rem;
+            }
+
+            .item-explanation {
+                padding: 1.5rem 1rem;
+                    
+                h4 {
+                    font-size: 1.1rem;
                 }
     
-                .item-explanation {
-                    padding: 1.5rem 1rem;
-                        
+                > p {
+                    padding-top: 0.5rem;
+                    margin-bottom: 1rem;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}
+
+// activities
+@media(max-width: 1200px) {
+    #section-activities {
+        .activities {
+            gap: 4rem;
+            
+            .white-circle {
+                padding: 4rem;
+                width: 28rem;
+                height: 28rem;
+    
+                .activity {
+                    padding: 4rem;
+                    width: 20rem;
+                    height: 20rem;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 992px) {
+    #section-activities {
+        height: 80vh;
+
+        .section-header {
+            padding-top: 8rem;
+        }
+
+        .activities {
+            gap: 3rem;
+            
+            .white-circle {
+                padding: 3rem;
+                width: 20rem;
+                height: 20rem;
+    
+                .activity {
+                    padding: 3rem;
+                    width: 14rem;
+                    height: 14rem;
+
                     h4 {
-                        font-size: 1.1rem;
+                        font-size: 1.5rem;
                     }
-        
-                    > p {
-                        padding-top: 0.5rem;
-                        margin-bottom: 1rem;
-                        font-size: 1.1rem;
-                    }
-        
-                    .item-details {
-                        img {
-                            margin: 0;
-                        }
+
+                    img {
+                        width: 5rem;
                     }
                 }
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    #section-activities {
+        .section-header {
+            padding-top: 1rem;
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        .activities {
+            gap: 2rem;
+            
+            .white-circle {
+                padding: 2rem;
+                width: 15rem;
+                height: 15rem;
+    
+                .activity {
+                    padding: 2rem;
+                    width: 11rem;
+                    height: 11rem;
+
+                    h4 {
+                        font-size: 1.2rem;
+                    }
+
+                    img {
+                        width: 4.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    #section-activities {
+        height: 30vh;
+
+        .section-header {
+            padding: 1rem;
+
+            .header-bottom {
+                width: 25rem;
+            }
+        }
+
+        .activities {
+            gap: 1rem;
+            
+            .white-circle {
+                padding: 1rem;
+                width: 10rem;
+                height: 10rem;
+    
+                .activity {
+                    padding: 1rem;
+                    width: 8rem;
+                    height: 8rem;
+
+                    h4 {
+                        font-size: 1rem;
+                    }
+
+                    img {
+                        width: 3rem;
+                    }
+                }
+            }
         }
     }
 }
