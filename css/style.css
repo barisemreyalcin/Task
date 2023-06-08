@@ -533,8 +533,7 @@ ul {
   line-height: 2.5rem; }
   #footer-content #container-blue {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; }
+    justify-content: space-between; }
     #footer-content #container-blue .footer-item {
       display: flex;
       flex-direction: column; }
@@ -542,7 +541,7 @@ ul {
       text-align: center; }
       #footer-content #container-blue .content-a p {
         margin-bottom: 0;
-        padding: 3rem 0; }
+        padding: 4rem 0; }
       #footer-content #container-blue .content-a #footer-social {
         display: flex;
         justify-content: center; }

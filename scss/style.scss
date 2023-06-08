@@ -799,7 +799,6 @@ ul {
         #container-blue {
             display: flex;
             justify-content: space-between;
-            flex-wrap: wrap;
             
             .footer-item {
                 display: flex;
@@ -810,7 +809,7 @@ ul {
                 text-align: center;
                 p {
                     margin-bottom: 0;
-                    padding: 3rem 0;
+                    padding: 4rem 0;
                 }
 
                 #footer-social {
